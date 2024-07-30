@@ -1,3 +1,7 @@
+// .. 14,15
+// 7da rekursiv usul nima?
+// 9da soncha belgini deganda nima nazarda tutiltabdi?
+
 // 1.
 function kvadratIldiz(son) {
   return son ** 0.5;
@@ -50,7 +54,16 @@ function unlilarSoni(str) {
 
 // 9 ..
 
-// 10 ..
+// 10
+
+function faqatRaqamlar(texa) {
+  for (let i = 0; i < text.length; i++) {
+    if (text[i] < "0" || text[i] > "9") {
+      return "xato";
+    }
+  }
+  return "togri";
+}
 
 // 11
 function daraja(asos, daraja) {
@@ -59,7 +72,15 @@ function daraja(asos, daraja) {
 
 // 12
 function boshliqlarniolib(str) {
-  // ..
+  let result = "";
+
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] !== " ") {
+      result += str[i];
+    }
+  }
+
+  return result;
 }
 
 // 13
@@ -68,12 +89,12 @@ function birlashtirishString(str1, str2) {
 }
 
 // 14
-function tasodifiySon(min, max) {
+function tasodifiySon() {
   // ..
 }
 
 // 15
-function boshHarflarniKatta(str) {
+function boshHarflarniKatta() {
   // ..
 }
 // 1
@@ -125,7 +146,18 @@ function kvadratgaOshirish(massiv) {
   return kvadrat;
 }
 
-// 6 ..
+// 6
+function faqatBittaElement(massiv) {
+  const res = [];
+
+  for (let i = 0; i < massiv.length; i++) {
+    if (res.indexOf(massiv[i]) == -1) {
+      res.push(massiv[i]);
+    }
+  }
+
+  return res;
+}
 
 // 7
 function massivlarniBirlashtirish(massiv1, massiv2) {
