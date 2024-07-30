@@ -1,6 +1,6 @@
 // .. 14,15
 // 7da rekursiv usul nima?
-// 9da soncha belgini deganda nima nazarda tutiltabdi?
+// 9da soncha belgini deganda nima nazarda tutilyabdi?
 
 // 1.
 function kvadratIldiz(son) {
