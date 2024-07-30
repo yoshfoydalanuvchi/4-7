@@ -1,6 +1,7 @@
-// .. 14,15
-// 7da rekursiv usul nima?
+// 7da rekursiv usul nima? //hali otilmagan bu
 // 9da soncha belgini deganda nima nazarda tutilyabdi?
+// 14 bu masala uchun kerakli metod o`tilmagan
+//15 bu misolda kerakli string oid metodlar ham endi o`tiladi
 
 // 1.
 function kvadratIldiz(son) {
